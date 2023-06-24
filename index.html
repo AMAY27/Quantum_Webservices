@@ -165,12 +165,12 @@
         <ul>
             <li>
                 <p>
-                    <b>Quantum instruction set:</b> "These are used to turn complex algorithms into physical instructions that can be performed on quantum processors and vary depending on the qubit modality of the quantum architecture (superconducting/silicon-based/trapped ions etc) of the hardware platform" <a href="#r6">[6]</a>.
+                    <b>Quantum instruction set:</b> "These are used to turn complex algorithms into physical instructions that can be performed on quantum processors and vary depending on the qubit modality of the quantum architecture (superconducting/silicon-based/trapped ions etc) of the hardware platform" <a href="#r5">[5]</a>.
                 </p>
             </li>
             <li>
                 <p>
-                    <b>Quantum development kits:</b> "Quantum software development kits (SDKs) offer various tools to design and exploit quantum programs, while also providing the user with the ability to simulate the quantum programs or prepare them to be run using cloud-based quantum devices. The Current SDKs with access to quantum processors and/or Quantum Development Kits available are Ocean, Qiskit, ProjectQ, Forest, Strawberry Fields, PennyLane, and Cirq" <a href="#r6">[6]</a>.
+                    <b>Quantum development kits:</b> "Quantum software development kits (SDKs) offer various tools to design and exploit quantum programs, while also providing the user with the ability to simulate the quantum programs or prepare them to be run using cloud-based quantum devices. The Current SDKs with access to quantum processors and/or Quantum Development Kits available are Ocean, Qiskit, ProjectQ, Forest, Strawberry Fields, PennyLane, and Cirq" <a href="#r5">[5]</a>.
                 </p>
             </li>
         </ul>
@@ -180,18 +180,18 @@
         <h2>5. Challenges for quantum web services</h2>
         <p><i>Edited by Amay Rajvaidya</i></p>
         <p>
-            <b>Quantum hardware:</b> scalability and coherence: successful implementation of quantum web services depends mainly on the availability of scalable and reliable quantum systems. Currently, many quantum systems are still in the development phase, so there are still limitations in qubit coherence and scalability.
-            "Quantum coherence is a desired property for a qubit. The duration of the qubit coherence is used to make quality comparisons between qubits. Coherence tells us something about how long a qubit retains its information, and thus dictates some sort of lifetime"<a href="#r7">[7]</a>.
+            <h3>5.1. Quantum hardware</h3> scalability and coherence: successful implementation of quantum web services depends mainly on the availability of scalable and reliable quantum systems. Currently, many quantum systems are still in the development phase, so there are still limitations in qubit coherence and scalability.
+            "Quantum coherence is a desired property for a qubit. The duration of the qubit coherence is used to make quality comparisons between qubits. Coherence tells us something about how long a qubit retains its information, and thus dictates some sort of lifetime"<a href="#r6">[6]</a>.
             To ensure proper flow and processing of qubits from different configurations, quantum systems must be compatible and scalable with classical computing.
         </p>
         <p>
-            <b>Lack of standards and protocols:</b> classical web services have an REST API architecture that includes protocols such as HTTP, IP, TCP, and other well-known protocols to establish secure and reliable communication. However, in the case of quantum web services, there is no defined protocol for secure transmission of qubits. Currently, post-quantum cryptography (developments in Quantum Key Distribution) is in the process of being implemented as a protocol for quantum networks. However, it is currently a challenge to practically implement a channel for qubits between quantum systems.
+            <h3>5.2. Lack of standards and protocols</h3> classical web services have an REST API architecture that includes protocols such as HTTP, IP, TCP, and other well-known protocols to establish secure and reliable communication. However, in the case of quantum web services, there is no defined protocol for secure transmission of qubits. Currently, post-quantum cryptography (developments in Quantum Key Distribution) is in the process of being implemented as a protocol for quantum networks. However, it is currently a challenge to practically implement a channel for qubits between quantum systems.
         </p>
         <p>
-            <b>Decoupling:</b> another important aspect of the classical service architecture is decoupling, which allows developers to create stubs from various code generation tools for defining services in different programming languages. This makes the development more agile and flexible for developers. However, for quantum web services, there is a lack of specifications and tools that can generate a structure for API calls.
+            <h3>5.3. Decoupling</h3> another important aspect of the classical service architecture is decoupling, which allows developers to create stubs from various code generation tools for defining services in different programming languages. This makes the development more agile and flexible for developers. However, for quantum web services, there is a lack of specifications and tools that can generate a structure for API calls.
         </p>
         <p>
-            <b>Complex architecture for web services:</b> On one side we have software development, a fast growing field with new technologies and tools that improve the development process every day, and on the other side we have quantum service architecture that requires developers to define circuits and interfaces on their end just to access a specific quantum system and algorithm. In comparison, quantum service development is much more complex for developers. As the demand for quantum algorithms will increase in the future, SDKs and tools will evolve to simplify access to quantum capabilities.
+            <h3>5.4. Complex architecture for web services</h3> On one side we have software development, a fast growing field with new technologies and tools that improve the development process every day, and on the other side we have quantum service architecture that requires developers to define circuits and interfaces on their end just to access a specific quantum system and algorithm. In comparison, quantum service development is much more complex for developers. As the demand for quantum algorithms will increase in the future, SDKs and tools will evolve to simplify access to quantum capabilities.
         </p>
 
     </section>
@@ -240,17 +240,17 @@
         <h2>7.Current capabilities of quantum computers  </h2>
         <p><i>Edited by Amay Rajvaidya</i></p>
         <p>
-            <b>Qubits:</b> Recent developments in quantum systems have led IBM to develop the most powerful quantum system called Osprey with a processing capacity of 433 qubits. IBM is also working on merging four quantum systems and developing a transmission channel between the systems to achieve a processing capacity of about 1000 qubits.
+            <h3>7.1. Qubits</h3> Recent developments in quantum systems have led IBM to develop the most powerful quantum system called Osprey with a processing capacity of 433 qubits. IBM is also working on merging four quantum systems and developing a transmission channel between the systems to achieve a processing capacity of about 1000 qubits.
         </p>
         <p>
-            <b>Quantum simulations:</b> Quantum computers are used to simulate various quantum systems on classical computers. Although these simulations are limited to small-case systems due to the current hardware constraints, they have performed promising use cases such as modelling chemical reactions and material properties, which is a very important aspect of drug discovery and material science. These simulations can also help in optimization techniques.
+            <h3>7.2. Quantum simulations</h3> Quantum computers are used to simulate various quantum systems on classical computers. Although these simulations are limited to small-case systems due to the current hardware constraints, they have performed promising use cases such as modelling chemical reactions and material properties, which is a very important aspect of drug discovery and material science. These simulations can also help in optimization techniques.
         </p>
         <p>
-            <b>Quantum algorithms:</b> The main purpose of quantum computers is to execute quantum algorithms more efficiently than classical computers for certain tasks. For example: the Shor’s algorithm, which can factorise large prime numbers, and it has a potential use case of cracking the RSA-based encryption algorithm used worldwide. While classical computers take years to crack RSA encryption, quantum systems can achieve that in a matter of hours. However, to achieve this performance, quantum computers would need to have a processing capacity of one million qubits. Another example of a quantum algorithm is the Grover’s algorithm, which has a quadratic speedup compared to classical systems when searching for unsorted datasets.
+            <h3>7.3. Quantum algorithms</h3> The main purpose of quantum computers is to execute quantum algorithms more efficiently than classical computers for certain tasks. For example: the Shor’s algorithm, which can factorise large prime numbers, and it has a potential use case of cracking the RSA-based encryption algorithm used worldwide. While classical computers take years to crack RSA encryption, quantum systems can achieve that in a matter of hours. However, to achieve this performance, quantum computers would need to have a processing capacity of one million qubits. Another example of a quantum algorithm is the Grover’s algorithm, which has a quadratic speedup compared to classical systems when searching for unsorted datasets.
         </p>
         <p>
              <b>Quantum cryptography: </b>quantum cryptography, also known as the unhackable cryptography system, has been supported by quantum systems for years to improve encryption. The Quantum key distribution (QKD) is based on quantum mechanics principles that enable secure communication channels.
-             "A security solution is as secure as its weakest link. In network encryption, the current weakest link with respect to the quantum computer threat is the secret key distribution based on public key cryptography. As its name says, QKD is used to distribute encryption keys, whose security is based on quantum physics and is thus guaranteed for the long-term<a href="#r8">[8]</a>. "
+             "A security solution is as secure as its weakest link. In network encryption, the current weakest link with respect to the quantum computer threat is the secret key distribution based on public key cryptography. As its name says, QKD is used to distribute encryption keys, whose security is based on quantum physics and is thus guaranteed for the long-term<a href="#r7">[7]</a>. "
              In the future advances of quantum services, quantum key distribution is the most sought-after function of quantum systems.
         </p>
 
@@ -259,10 +259,10 @@
         <h2>8.Unfeasible Features of quantum web services</h2>
         <p><i>Editeb by Amay Rajvaidya</i></p>
         <p>
-            <b>User controls and synchronization:</b> One of the major drawbacks of quantum web services is user control over the services requested by quantum systems. In classical web services, the user can control the behavior of requests and responses, while quantum systems can only handle requests for single instances and cannot handle multiple requests simultaneously. When you request a service defined with an interface (circuits or gates logic), the server runs the algorithm with the gates included and returns the results. In the meantime, you cannot queue another request for the service.
+            <h3>8.1. User controls and synchronization</h3> One of the major drawbacks of quantum web services is user control over the services requested by quantum systems. In classical web services, the user can control the behavior of requests and responses, while quantum systems can only handle requests for single instances and cannot handle multiple requests simultaneously. When you request a service defined with an interface (circuits or gates logic), the server runs the algorithm with the gates included and returns the results. In the meantime, you cannot queue another request for the service.
         </p>
         <p>
-            <b>Decoupling:</b> currently, there are no universally defined tools for generating stubs for quantum web services. If a developer wants to use the features of quantum systems, he/she must write code for that quantum system to define interfaces for querying the quantum server.
+            <h3>8.2. Decoupling</h3> currently, there are no universally defined tools for generating stubs for quantum web services. If a developer wants to use the features of quantum systems, he/she must write code for that quantum system to define interfaces for querying the quantum server.
         </p>
     </section>
     <section>
@@ -316,10 +316,10 @@
         <h2>10. Tools and Technologies</h2>
         <p><i>Edited by Amay Rajvaidya</i></p>
         <p>
-            <b>The Amazon Bracket Stack:</b> one of the most commonly used quantum providers is Amazon Bracket. Bracket uses multiple quantum systems in its backend. With the Bracket Development Kit, users can access various systems such as Rigetti (superconducting quantum system), D-Wave (quantum annealer), IONQ (trapped ion), and AWS simulators.
+            <h3>10.1. The Amazon Bracket Stack</h3> one of the most commonly used quantum providers is Amazon Bracket. Bracket uses multiple quantum systems in its backend. With the Bracket Development Kit, users can access various systems such as Rigetti (superconducting quantum system), D-Wave (quantum annealer), IONQ (trapped ion), and AWS simulators.
         </p>
         <p>
-            <b>Qiskit:</b> Qiskit is a Quantum Development Kit (QDk) developed by IBM to allow developers to access the load of multiple quantum providers. Qiskit provides support for local machine simulators, making it easier to use as it uses Python code to access the systems.
+            <h3>10.2. Qiskit</h3> Qiskit is a Quantum Development Kit (QDk) developed by IBM to allow developers to access the load of multiple quantum providers. Qiskit provides support for local machine simulators, making it easier to use as it uses Python code to access the systems.
         </p>
     </section>
     <section>
@@ -396,15 +396,15 @@
             [Online]. Available: <a
                 href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9645184&tag=1">https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9645184&tag=1</a>
             (24.06.2023)</p>
-        <p class="reference" id="r6">[6] D.James (2022, JULY 28). Top 5 Quantum Programming Languages
+        <p class="reference" id="r5">[5] D.James (2022, JULY 28). Top 5 Quantum Programming Languages
             [Online]. Available: <a
                 href="https://thequantuminsider.com/2022/07/28/state-of-quantum-computing-programming-languages-in-2022/">https://thequantuminsider.com/2022/07/28/state-of-quantum-computing-programming-languages-in-2022/</a>
             (24.06.2023)</p>
-        <p class="reference" id="r7">[7] Qutech Academy. Coherence
+        <p class="reference" id="r6">[6] Qutech Academy. Coherence
             [Online]. Available: <a
                 href="https://www.qutube.nl/fundamentals-11/coherence-111">https://www.qutube.nl/fundamentals-11/coherence-111</a>
             (24.06.2023)</p>
-        <p class="reference" id="r8">[8] ID Quantique SA. Quantum Key Distribution
+        <p class="reference" id="r7">[7] ID Quantique SA. Quantum Key Distribution
             [Online]. Available: <a
                 href="https://www.idquantique.com/quantum-safe-security/quantum-key-distribution/">https://www.idquantique.com/quantum-safe-security/quantum-key-distribution/</a>
             (24.06.2023)</p>
