@@ -18,5 +18,5 @@ Quantum computing is a promising technology that can revolutionize the field of 
 - Amirali Shaban Khamseh
 + Amay Rajvaidya
 
-Full article at  [Research Blog](https://pages.github.com/).
+Full article at  [Research Blog](https://amirali-khamseh.github.io/Quantum_Webservices/).
 
