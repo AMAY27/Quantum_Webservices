@@ -260,14 +260,14 @@
     <section>
         <h2>6.Quantum usecases for web</h2>
         <p><i>Edited by Amirali Shaban Khamseh</i></p>
-        <h3>6.1. Areas we may not need the Quantum power on web <a href="#r9">[9]</a> </h3> 
+        <h3>6.1. Areas we may not need the Quantum power on web  </h3> 
 
         <p>
             So far, we have discussed how powerful quantum computing is. However, it's important to note that we
             may not require this level of computational power for all the web services we use. For instance, sending and
             receiving emails do not necessitate quantum power. The current architecture for this specific task is
             well-established, and it generally doesn't demand significant computing power. Nevertheless, in the future,
-            quantum power may be used to enhance the security of communication channels. </a>
+            quantum power may be used to enhance the security of communication channels. <a href="#r9">[9]</a>
         </p>
 
         <p>
@@ -275,12 +275,13 @@
             couple of microseconds, whereas current database management systems are designed to efficiently handle data
             storage. However, we can still use the power of quantum computing for data search in databases. By
             utilizing quantum algorithms like Grover's algorithm, we can search for data in a quadratic time complexity,
-            providing a potential advantage compared to the current search algorithms.
+            providing a potential advantage compared to the current search algorithms.<a href="#r9">[9]</a>
         </p>
-        <h3>6.2. Areas we will need the Quantum Power <a href="#r9">[9]</a> </h3> 
+        <h3>6.2. Areas we will need the Quantum Power</h3> 
         <p>Having quantum computational power can be advantageous in various areas of the web, such as cryptography. As
             mentioned earlier, the natural uncertainty of qubit values can be used as a benefit. This can allow us to
             create unhackable private keys, a method commonly referred to as quantum-safe cryptography.
+            <a href="#r9">[9]</a>
         </p>
         <p>
             Furthermore, artificial intelligence and language models can benefit from this power. Language models
@@ -288,6 +289,7 @@
             valuable information. However, this task can be highly resource-intensive and consume significant
             computational power. Quantum power, on the other hand, enables us to analyze huge datasets all at once and
             run complex algorithms in parallel.
+            <a href="#r9">[9]</a>
         </p>
         <p>
             Additionally, quantum power proves to be useful when dealing with optimization problems. These types of
@@ -297,6 +299,7 @@
             subgroup, we can then hand them over to classical computers to solve them traditionally. This hybrid
             approach allows us to benefit from the strengths of each computing system and effectively solve these
             problems.
+            <a href="#r9">[9]</a>
         </p>
     </section>
     <section>
@@ -357,26 +360,26 @@
     <section>
         <h2>9.Architecture of Quantum Web services API and practical problems </h2>
         <p><i>Edited by Amirali Shaban Khamseh</i></p>
-        <h3>9.1. Hybrid architecture(Quantum API gateway) <a href="#r4">[4]</a> </h3>
+        <h3>9.1. Hybrid architecture(Quantum API gateway) </h3>
         <figure>
             <img src="Figure4.PNG" alt="Hybrid architecture of quantum services" />
             <figcaption>
-                <strong>Figure 4</strong>: Hybrid architecture of quantum services , the picture may be small zoom in please for reading the details <a href="#r4">[4]</a>.
+                <strong>Figure 4</strong>: Hybrid architecture of quantum services , the picture may be small,  please zoom in for reading the details <a href="#r4">[4]</a>.
             </figcaption>
         </figure>
         <p>The process of using this API involves seven steps. Initially, clients need to design the quantum circuit,
             selecting the relevant quantum gates based on the specific set of inputs. Along with the circuit, an
             optimization factor, which determines the best hardware for running the program, is sent to the API's
-            recommender.</p>
+            recommender.<a href="#r4">[4]</a></p>
         <p>The recommender analyzes the circuit and optimization factor to suggest the most suitable quantum hardware.
             It also checks the availability of the recommended hardware. Once the status of the quantum hardware is
-            determined, all the data is forwarded to the API service manager.</p>
+            determined, all the data is forwarded to the API service manager . <a href="#r4">[4]</a></p>
         <p>Based on the inputs and the selected hardware, the API service manager requests the deployment requirements
             from the specific quantum hardware. If all the requirements are met, the circuit is deployed on top of the
-            hardware.</p>
+            hardware. <a href="#r4">[4]</a></p>
         <p>After the calculation process is completed, the result is sent back to the user who initiated the process by
-            calling the API.</p>
-        <h3>9.2. Traditional API versus API gateway <a href="#r4">[4]</a></h3>
+            calling the API.<a href="#r4">[4]</a></p>
+        <h3>9.2. Traditional API versus API gateway </h3>
         <p>
             In the current systems we use, we deploy our system once on a server and make multiple calls to retrieve
             data with the applied logic through the provided API interfaces. However, quantum computing operates
@@ -384,7 +387,7 @@
             the same way. To deploy a program, we need to invoke a specific API provided by the Quantum hardware
             provider through their dedicated interface. This API gateway is responsible for deploying the entire system
             on the quantum hardware upon invocation and returning the execution results through the same interface to
-            the user.
+            the user.<a href="#r4">[4]</a>
         </p>
         <p>
             When considering resource-intensive applications that require frequent invocation, the cost can be
@@ -392,13 +395,13 @@
             as the final cost for the user. Furthermore, when invoking the API, it checks the input preferences for
             hardware and the availability of the requested hardware. If the desired hardware is not available, we may
             need to use another hardware option that is not optimized for our specific task. Consequently, we may not
-            achieve the expected results due to hardware changes.
+            achieve the expected results due to hardware changes.<a href="#r4">[4]</a>
         </p>
         <p>
 
             Moreover, while traditional APIs operate based on established standards and protocols, the Quantum API
             gateway protocols have not yet been widely established, leading to a lack of standardized protocols in the
-            quantum computing domain.
+            quantum computing domain.<a href="#r4">[4]</a>
         </p>
     </section>
     <section>
